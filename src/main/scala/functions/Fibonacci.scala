@@ -7,9 +7,9 @@ object Fibonacci {
   def fibonacci(n: Int): Int = {
     if (n == 0)
       1
-      else if ()
+      else (???)
     
-  }
+  ???}
 
   def main(argv: Array[String]): Unit = {
 
