@@ -15,18 +15,14 @@ object QuadraticFormula {
     if (d == 0)
       List( -b / (2 * a))
     else if (d < 0 )
-      List()
+      List[Double]()
     else
       List(
         (-b + sqrt(d) / (2 *a)),
         (-b - sqrt(d) / (2 * a))
       )
-
-    //List(
-    //(-b + sqrt(b * b - 4 * a * c)) / (2 * a),
-    // (-b - sqrt(b * b - 4 * a * c)) / (2 * a)
-    //).distinct
   }
+    
  
   
   // TASK:
