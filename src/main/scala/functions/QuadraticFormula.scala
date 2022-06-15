@@ -44,8 +44,11 @@ object QuadraticFormula {
   def main(argv: Array[String]): Unit = {
     println("Hello this is main of QuadraticFormula")
 <<<<<<< HEAD
+<<<<<<< HEAD
     println(quadraticFormula(1, 2, -3).sorted)
     println(quadraticFormula(-1, 3, 7).sorted)
+=======
+>>>>>>> 1e27fa894774e699a318b894e4a77d7b432611a4
 =======
 >>>>>>> 1e27fa894774e699a318b894e4a77d7b432611a4
   }
